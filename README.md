@@ -1,1 +1,1 @@
-Portfolio Template
+This is a HTML project for personal portfolio.
