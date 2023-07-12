@@ -22,7 +22,7 @@ body {
 
 #main-content {
   margin: 225px 425px;
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 96px;
   position: relative;
