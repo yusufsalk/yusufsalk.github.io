@@ -29,10 +29,10 @@ a.icon-link:hover {
 .navbar {
   width: 100%;
   padding: 30px 50px;
-  display: block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
 }
