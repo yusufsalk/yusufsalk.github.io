@@ -90,9 +90,15 @@
 
       <style>
         .skill-section-content {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 50px;
+          display: flex;
+          justify-content: space-between;
+       }
+         .skill-section-content > div {
+          flex-basis: 30%;
+        }
+         .about-section-content > div:nth-child(2) {
+          display: flex;
+          justify-content: center;
         }
         .skill-section-content h2 {
           font-size: 20px;
