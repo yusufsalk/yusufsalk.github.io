@@ -114,8 +114,8 @@ body {
     }
 
     .project-image2 {
-      width: 50%;
-      height: 400px;
+      width: 75%;
+      height: 500px;
       object-fit: cover;
       object-position: center;
     }
