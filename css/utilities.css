@@ -83,7 +83,7 @@ a.button.big {
   text-decoration: none;
   width: fit-content;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
 }
 
