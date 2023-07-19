@@ -91,35 +91,9 @@
       <a class="button" href="https://drive.google.com/file/d/1rJxLp3JVu5jDOO0etgmaBJXN18X4HO4k/view?usp=sharing" target="_blank">
         <span class="button-text">View Resume</span>
       </a>
+  
 
-      <style>
-        .skill-section-content {
-          display: flex;
-          justify-content: space-between;
-          flex-wrap: wrap; /* Add flex-wrap to allow wrapping of div elements */
-        }
-      
-        .skill-section-content > div {
-          flex-basis: calc(33.33% - 10px); /* Adjust flex-basis to fit 3 divs in a row with a small gap */
-          margin: 5px; /* Add a small margin for spacing between the divs */
-        }
-      
-        .skill-section-content > div:nth-child(2) {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-      
-        .skill-section-content h2 {
-          font-size: 20px;
-        }
-      
-        .skill-section-content ul li {
-          margin-bottom: 10px;
-        }
-      </style>      
-
-      <div id="skill-section">
+      <div id="skill-section" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
         <div class="skill-section-content">
           <div>
             <h2>Analytical Skills</h2>
