@@ -110,6 +110,10 @@
         .skill-column {
           flex-basis: calc(33.33% - 20px);
           text-align: center; /* Center the content within each column */
+          display: flex; /* Use flexbox to align content properly */
+          flex-direction: column; /* Stack content vertically within each column */
+          align-items: flex-start; /* Align content to the left within each column */
+    }
         }
     
         .skill-column:nth-child(2) {
