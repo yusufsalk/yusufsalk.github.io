@@ -102,14 +102,20 @@
     
         .skill-section-content {
           display: flex;
+          flex-wrap: wrap;
           gap: 20px;
           width: 100%; /* Ensure the content takes full width */
         }
     
         .skill-column {
           flex-basis: calc(33.33% - 20px);
+          text-align: center; /* Center the content within each column */
         }
     
+        .skill-column:nth-child(2) {
+          flex: 1; /* Make the middle column take up the remaining space */
+        }
+
         .skill-section-content ul {
           padding-left: 20px; /* Add some indentation for the bulleted lists */
         }
