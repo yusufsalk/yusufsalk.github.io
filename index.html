@@ -116,8 +116,14 @@
           flex: 1; /* Make the middle column take up the remaining space */
         }
 
-        .skill-section-content ul {
-          padding-left: 20px; /* Add some indentation for the bulleted lists */
+        .skill-column ul {
+          padding-left: 0; /* Reset the default padding for bulleted lists */
+          text-align: left; /* Align the bulleted lists to the left */
+        }
+
+        .skill-column ul li {
+          list-style-type: disc; /* Add disc bullets to the list items */
+          margin-left: 20px; /* Add indentation for the list items */
         }
       </style>
 
