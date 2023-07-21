@@ -1,0 +1,230 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/profile.png" />
+     <title>Portfolio</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+         <span class="nav-title">Home</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:yusufsalk@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Instacart Grocery Basket Analysis</div>
+        <div class="body-text">This project is an online grocery market analysis, performed by using Python.</div>
+        <image class="project-header-image" src="../assets/images/same-day-grocery.png">
+      </div>
+
+      <style>
+        .body-text:first-of-type {
+          margin-bottom: 40px;
+        }
+      </style>
+
+      <div id="project-details">
+        <div class="subheader-text">Objective</div>
+        <div class="project-details-content">
+          <div class="body-text">Instacart is an online grocery store that operates through an app. Instacart already has very good sales, but they want to uncover more information about their sales patterns. Our task is to perform an initial data and exploratory analysis of some of their data in order to derive insights and suggest strategies for better segmentation based on the provided criteria.</div>
+        </div>
+
+        <div class="subheader-text">Context</div>
+        <div class="project-details-content">
+          <div class="body-text">The Instacart stakeholders are most interested in the variety of customers in their database along with their purchasing behaviors. They assume they can't target everyone using the same methods, and they’re considering a targeted marketing strategy. They want to target different customers with applicable marketing campaigns to see whether they have an effect on the sale of their products.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">What sales and marketing teams are curious about?</div>
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container">
+              <img src="../assets/images/key-questions.png" class="gallery-image">
+            </div>
+        </div>
+      </div>
+
+      <style>
+        .project-details-content ul {
+          margin-bottom: 20px;
+        }
+        .project-details-content li {
+          margin-bottom: 10px;
+        }
+      </style>
+
+      <div id="project-details">
+        <div class="subheader-text">Python Skills</div>
+        <div class="project-details-content">
+          <div class="body-text">
+            <ul>
+              <li>Descriptive Analysis</li>
+              <li>Data Cleaning</li>
+              <li>Data Wrangling & Subsetting</li>
+              <li>Data Consistency Checks</li>
+              <li>Combining Data Sets</li>
+              <li>Deriving New Variables</li>
+              <li>Grouping & Aggregating Data</li>
+              <li>Data Visualization</li>
+              <li>Excel Reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="project-gallery-content">
+            <div class="gallery-image-container">
+              <img src="../assets/images/population-flow.png" class="gallery-image">
+              <span class="image-caption">As always, I started with exploratory analysis. To explore the data and the relationships between them, I conducted descriptive analysis. Then I made the data sets more consistent and accurate by data cleaning. After that, I combined all the different datasets and produced the final dataset. Thus, I employed methods such as deriving new columns, aggregating and visualizing data to answer key questions.</span>
+            </div>
+        </div>
+      </div>
+
+      <div id="project-details">
+        <div class="subheader-text">Challenges</div>
+        <div class="project-details-content">
+          <div class="body-text">This was my first coding project. I have enjoyed tackling Python and working with large data sets. I also quickly became familiar with using Juypter notebook. But as always, analyzing data is always open to surprises, and the same thing didn't change in this case. For example, while exploring the data by creating visuals such as histograms and scatterplots, I discovered that there are outliers such as $10.000, $20.000 in the prices column. I thought that this must be the result of data corruption or some kind of special value within the data. Since it would not make sense to sell such high priced products in the online grocery market, I labelled values over $100 as missing in order to conduct an accurate and consistent analysis. However, this operation should be done during the data cleaning process. So, since I have a well organized notebook, I added this to the previous step and ran the updated script.</div>
+        </div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="subheader-text">Which answers did I find?</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container">
+              <img src="../assets/images/key-findings.png" class="gallery-image">
+            </div>
+        </div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="subheader-text">What can I recommend?</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container">
+              <img src="../assets/images/recommendations.png" class="gallery-image">
+            </div>
+        </div>
+      </div>
+
+      <div style="margin: 0; display: flex; justify-content: center; align-items: center; height: 10vh;">
+        <a class="button" href="https://github.com/yusufsalk/Instacart-Python-Project" target="_blank">
+          <span class="button-text">Detailed Analysis and Python Code</span>
+        </a>
+      </div>
+
+      <div id="project-gallery">
+        <div class="project-gallery-content">
+            <div class="gallery-image-container">
+              <img src="../assets/images/fruits.jpg" class="gallery-image">
+            </div>
+        </div>
+      </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://linkedin.com/in/yusuf-salk-782436127">
+        <image src="../assets/icons/linkedn.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://github.com/yusufsalk">
+        <image src="../assets/icons/github.svg" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" target="_blank" href="https://public.tableau.com/app/profile/yusuf.salk">
+        <image src="../assets/icons/tableau.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:yusufsalk@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
