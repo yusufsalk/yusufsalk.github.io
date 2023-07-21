@@ -21,7 +21,7 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 100px 400px;
+  margin: 100px 350px;
   display: flex;
   flex-direction: column;
   gap: 96px;
