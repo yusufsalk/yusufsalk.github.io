@@ -39,10 +39,10 @@
 
       <!-- PROJECT HEADER -->
       <div id="project-header">
-        <div class="main-title">Rockbuster Rockbuster Stealth Data Analysis</div>
-        <div class="body-text">This project is an online video rental company analysis, performed by using SQL and Tableau.</div>
-        <image class="project-header-image" src="../assets/images/cinema.jpg">
-        <span class="image-caption">Image by <a href="https://www.freepik.com/free-photo/cinema-visit-stuff-wooden-tabletop_1443984.htm#query=movie%20rental&position=4&from_view=search&track=ais" target="_blank">Freepik</a></span>
+        <div class="main-title">Chocolate Bar Analysis</div>
+        <div class="body-text">This project is a product quality analysis, performed by using Python and Tableau.</div>
+        <image class="project-header-image" src="../assets/images/black-chocolate.jpg">
+        <span class="image-caption">Image Racool_studio on <a href="https://www.freepik.com/free-photo/pieces-black-chocolate_6900306.htm#page=2&query=chocolate%20bar&position=24&from_view=search&track=ais" target="_blank">Freepik</a></span>
       </div>
 
       <style>
@@ -54,18 +54,45 @@
       <div id="project-details">
         <div class="subheader-text">Objective</div>
         <div class="project-details-content">
-          <div class="body-text">Rockbuster Stealth LLC is a movie rental company and planning to launch an online video rental service in order to stay competitive. The objective is to draw insights in relation to inventory and customer based on location to help with the launch strategy for the new online video service.</div>
+          <div class="body-text">Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billion pounds. However, not all chocolate bars are created equal. In this case study, the objective is to explore what informs the rating of chocolate bars.</div>
         </div>
 
         <div class="subheader-text">Context</div>
         <div class="project-details-content">
-          <div class="body-text">To answer the complex business questions posed by the different departments, structured query language is needed to query the data from the online video streaming industry to provide data-driven answers. The data is needed to visualize the data in an easy-to-consume manner, and the results of the analysis should be presented to Rockbuster management.</div>
+          <div class="body-text">Although this data set does not include all kinds of chocolate bars, but only a selected subset, and the ratings reflect a subjective opinion, we will look for one of the reasons that may affect chocolate bar ratings.</div>
+        </div>
+      </div>
+
+      <style>
+        .project-details-content ul {
+          margin-bottom: 20px;
+        }
+        .project-details-content li {
+          margin-bottom: 10px;
+        }
+      </style>
+
+      <div id="project-details">
+        <div class="subheader-text">Procedures Applied</div>
+        <div class="project-details-content">
+          <div class="body-text">
+            <ul>
+              <li>Sourcing open data</li>
+              <li>Exploring relationships</li>
+              <li>Geographical visualizations</li>
+              <li>Regression analysis</li>
+              <li>Cluster analysis</li>
+              <li>Time-series analysis</li>
+              <li>Data visualization</li>
+              <li>Creating data dashboards</li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
-        <div class="subheader-text">On what topics do The Rockbuster Stealth Management Board expect answers?</div>
+        <div class="subheader-text">Where are the best cocoa beans growns?</div>
         <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
         <div class="project-gallery-content">
             <!-- 
@@ -92,67 +119,44 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container">
-              <img src="../assets/images/key-questions.png" class="gallery-image">
+              <img src="../assets/images/bean-origin.png" class="gallery-image">
             </div>
-        </div>
-      </div>
-
-      <style>
-        .project-details-content ul {
-          margin-bottom: 20px;
-        }
-        .project-details-content li {
-          margin-bottom: 10px;
-        }
-      </style>
-
-      <div id="project-details">
-        <div class="subheader-text">Procedures Applied</div>
-        <div class="project-details-content">
-          <div class="body-text">
-            <ul>
-              <li>Relational databases</li>
-              <li>Database querying</li>
-              <li>Data filtering</li>
-              <li>Data cleaning and summarizing</li>
-              <li>Joining tables</li>
-              <li>Subqueries</li>
-              <li>Common table expressions</li>
-              <li>Data visualization</li>
-            </ul>
-          </div>
         </div>
       </div>
 
       <div id="project-gallery">
         <div class="project-gallery-content">
             <div class="gallery-image-container">
-              <div class="subheader-text">Data Overview</div>
-              <img src="../assets/images/data-overview.png" class="gallery-image">
+              <div class="subheader-text">Clustering</div>
+              <img src="../assets/images/cluster.png" class="gallery-image">
+              <span class="image-caption">After our cluster analysis, we came up with 3 main groups of points, which you can see in different colors on the plot.</span>
             </div>
         </div>
       </div>
 
       <div id="project-gallery">
-        <div class="subheader-text">Which answers did I find?</div>
+        <div class="subheader-text">Differences Between Clusters</div>
         <div class="project-gallery-content">
             <div class="gallery-image-container">
-              <img src="../assets/images/key-findings-rockbuster.png" class="gallery-image">
+              <img src="../assets/images/cluster-result.png" class="gallery-image">
+              <span class="image-caption">On average, the pink cluster has a rating of 3.40. It's followed by a grey cluster with a degree of 3.20 and a dark purple cluster with a degree of 2.70, respectively.</span>
+              <span class="image-caption">The cocoa percentage of the highest rating cluster is on average 71%. While the medium rating cluster has a cocoa percentage of 68%, the cocoa percentage of the lowest rating cluster is 78%, on average.</span>
+              <span class="image-caption">From all this, it can be derived that people don't like to eat intense dark chocolate, in general.</span>
             </div>
         </div>
       </div>
 
       <div id="project-gallery">
-        <div class="subheader-text">What can I recommend?</div>
+        <div class="subheader-text">Final Results</div>
         <div class="project-gallery-content">
             <div class="gallery-image-container">
-              <img src="../assets/images/recommendations-rockbuster.png" class="gallery-image">
+              <img src="../assets/images/cluster-map.png" class="gallery-image">
             </div>
         </div>
       </div>
 
       <div style="margin: 0; display: flex; justify-content: center; align-items: center; height: 10vh;">
-        <a class="button" href="https://github.com/yusufsalk/Rockbuster-SQL-Project" target="_blank">
+        <a class="button" href="https://github.com/yusufsalk/Chocolate-Bar-Python-Tableau-Project" target="_blank">
           <span class="button-text">View Detailed Analysis</span>
         </a>
       </div>
@@ -160,7 +164,7 @@
       <div id="project-gallery">
         <div class="project-gallery-content">
             <div class="gallery-image-container">
-              <img src="../assets/images/popcorn.png" class="gallery-image">
+              <img src="../assets/images/chocolate-footer.png" class="gallery-image">
             </div>
         </div>
       </div>
